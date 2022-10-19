@@ -20,6 +20,7 @@ jobs:
         port: ${{ secrets.PORT }}
         script: |
           whoami
-          cd /home/UniqueVistors/UniqueVistors-main
+          cd /home/UniqueVistors-main/UniqueVistors-main
           sudo git pull origin main
           sudo docker-compose up --build -d
+          
