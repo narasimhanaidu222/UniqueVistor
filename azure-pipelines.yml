@@ -1,12 +1,10 @@
 name: PHP APP
-
 on:
   push:
     branches: [ main ]
   pull_request:
     branches: [ main ]
 jobs:
-
   build:
     name: CI/CD-PHPAPP
     runs-on: ubuntu-latest
